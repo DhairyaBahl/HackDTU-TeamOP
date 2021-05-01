@@ -1,4 +1,4 @@
-# Project Name ( TO BE ADDED )
+# Class Material
 ![logo](link to be added here)
 
 ### This project is a part of HackDTU 
