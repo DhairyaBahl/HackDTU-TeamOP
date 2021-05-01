@@ -1,0 +1,15 @@
+# Leave this the same for your development file, 
+# and change it to whichever URL you want users 
+# to access your site with in the production file
+REACT_APP_BASE_URL=localhost:3000
+
+# Found in project settings under the General tab
+REACT_APP_FIREBASE_PROJECT_ID=cdn-bpit
+REACT_APP_FIREBASE_API_KEY=AIzaSyCa95gHswvTfpsDF395J91HYYcouour_ts
+
+# Found in project settings under the Cloud Messaging tab
+REACT_APP_FIREBASE_MESSAGING_CERT=AAAAP8WJw6U:APA91bE3PvIj1bNNMiyWMmvlulFypX18R8txbpvUq1HmyykjG-JPdf94fMSrqluZK4xHqjAEnG95pL6-bCSY09EBRZuO0OtYX5PXhl3ir5atOROTAE59i11Jtezu-I0cPRzDn0k42KnR
+REACT_APP_FIREBASE_MESSAGING_ID=273897079717
+
+# Found in the Hosting tab
+REACT_APP_FIREBASE_DOMAIN=cdn-bpit.web.app

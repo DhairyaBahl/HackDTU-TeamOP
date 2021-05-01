@@ -1,0 +1,35 @@
+{
+  "name": "react-firebase-essentials",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001219",
+    "firebase": "^7.3.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-transition-group": "^2.6.0",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "setup": "npm i && cd functions && npm i && cd .. && cp env_template.txt .env.production.local && cp env_template.txt .env.development.local"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-plugin-react-hooks": "0.0.0"
+  }
+}
