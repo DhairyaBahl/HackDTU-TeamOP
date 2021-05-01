@@ -2,6 +2,7 @@
 nav {
     background-color: #333;
     overflow: hidden;
+    margin-left: 200px;
 }
 /* Nav bar buttons */
 nav a {
@@ -36,6 +37,7 @@ nav button a{
 footer {
     background-color: #333;
     overflow: hidden;
+    margin-left: 200px;
 }
 
 footer a {
