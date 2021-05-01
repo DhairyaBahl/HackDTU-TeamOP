@@ -1,6 +1,6 @@
 # Class Material
 
-![logo](https://imgur.com/a/xEGahNi)
+![logo](Add Link)
 
 ### This project is a part of HackDTU 
 <img src="https://user-images.githubusercontent.com/71627983/116778350-02dcc480-aa8f-11eb-891f-4eb42f3fcdb5.jpeg" alt="drawing" width="1000" height="400" />
