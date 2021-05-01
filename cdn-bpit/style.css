@@ -1,9 +1,15 @@
+/* *{
+    background-color: #090C11;
+} */
+
 /* Nav Bar */
+/* Margin add */
 nav {
     background-color: #333;
     overflow: hidden;
     margin-left: 200px;
 }
+
 /* Nav bar buttons */
 nav a {
     text-decoration: none;
@@ -26,14 +32,14 @@ nav button {
     margin-right: 10px;
 }
 
-nav button a{
+button a{
     float: unset;
     font-size: 150%;
     font-family: 'Orelega One', cursive;
     /* padding: 20px; */
     margin-top: 0px;
 }
-
+/* Margin add */
 footer {
     background-color: #333;
     overflow: hidden;
@@ -106,3 +112,41 @@ footer a {
     float: right;
     padding-right: 8px;
   }
+
+  /* Body margin */
+  body{
+      margin-left: 200px;
+      margin: 0;
+  }
+
+  /* Heading semester */
+  section h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  main{
+      margin-left: 200px;
+  }
+
+  section button{
+
+    background-color:rgba(0, 222, 252, 0.692);
+    display: inline-block;
+    font-size: 16px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    border-color: rgba(32, 235, 14, 0.774);
+    margin-left: 11%;
+    margin-bottom: 20px;
+
+  }
+
+  .pdf{
+
+    color: rgb(4, 21, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Original Surfer', cursive;
+  }
+  
