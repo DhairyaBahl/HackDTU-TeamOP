@@ -115,7 +115,6 @@ footer a {
 
   /* Body margin */
   body{
-      margin-left: 200px;
       margin: 0;
   }
 
@@ -150,3 +149,6 @@ footer a {
     font-family: 'Original Surfer', cursive;
   }
   
+.text{
+  margin-left: 200px;
+}
