@@ -13,9 +13,6 @@ function Header(){
             <a href="#CONTACT">Contact Us</a>
         </div>
 
-        <button className="login">
-            <a href="#LOGIN">Login</a>
-        </button>
     </nav>
     )
 }

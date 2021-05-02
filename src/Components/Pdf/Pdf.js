@@ -13,14 +13,13 @@ function Pdf(props){
             <h2 >1ST SEMESTER</h2>
                 
                 {finalArray.map(object=>{
-                    console.log(object)
 
                     for (const o in object) {
-                        <div className="imagediv" >
-                            {console.log(object[o].image)}
+                        return (<div className="imagediv" >
+                            {console.log(`${object[o].image}`)}
                             <img src={object[o].image} className="image"  />
-                            <button><a href={o.pdf} className="pdf"  ></a></button><br/><br/>   
-                        </div>
+                            <button><a href={object[o].pdf} className="pdf"></a></button><br/><br/>   
+                        </div>)
                     }
                 })}
                 <br/><br/><br/><br/>
