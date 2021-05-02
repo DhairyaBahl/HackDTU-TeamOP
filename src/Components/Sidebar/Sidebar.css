@@ -1,0 +1,74 @@
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-bottom:0;
+  padding-right: 30px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+/* On mouse-over */
+.heading :hover{
+  color:deeppink  !important ;
+  background-color: #111 !important;
+}
+
+.heading a{
+  font-size: 30px;
+  margin-top : 0px;
+  border-bottom: 3px solid deeppink;
+}
+
+.sidenav a:hover{
+  color:white;
+}
+
+.active{
+  background-color: #111;
+}
+.active a{
+  color:blue !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+

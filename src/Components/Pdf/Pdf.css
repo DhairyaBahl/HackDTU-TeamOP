@@ -1,0 +1,32 @@
+.pdf{
+
+    color: rgb(4, 21, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Original Surfer', cursive;
+    text-align: center;
+  }
+
+  h2{
+      color:white;
+      text-align: center;
+  }
+
+  .image{
+      display: block;
+    width:50%;
+  object-fit: contain;
+  max-width: 500px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .imagediv{
+      text-align: center;
+  }
+
+  .pdfpage{
+      margin-top: 100px;
+  }
