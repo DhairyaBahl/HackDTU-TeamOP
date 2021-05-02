@@ -23,12 +23,8 @@ function App() {
 
   const[subjects,setSubjects] = useState([]);
   const[files,setFiles]=useState([]);
-
-  console.log(files);
   
   const[input,setInput] = useState("");
-
-  const[active,setActive] = useState(6)
 
   return (
     <div className="App">
@@ -36,9 +32,9 @@ function App() {
       <div className="test">
         <Header/>
 
-        <Sidebar subjects={subjects} active={active} />
+        <Sidebar subjects={subjects} />
 
-        <Pdf files={files} active={active} subjects={subjects} />
+        <Pdf files={files} subjects={subjects} />
 
         <Footer />
       
