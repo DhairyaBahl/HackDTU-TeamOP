@@ -1,7 +1,10 @@
 # Mera Notes
 ### Notes for students by students.
 
+##
 ![logo](https://github.com/achitJ/HackDTU-TeamOP/blob/main/%23Extras/Resources/Facebook%20Post%20940x788%20px.png)
+##
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)    [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)    [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ## This project is a part of HackDTU 
 <img src="https://user-images.githubusercontent.com/71627983/116778350-02dcc480-aa8f-11eb-891f-4eb42f3fcdb5.jpeg" alt="drawing" width="1000" height="400" />
