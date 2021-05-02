@@ -2,11 +2,8 @@ import './Pdf.css';
 
 function Pdf(props){
 
-    const finalArray = props.files.filter(file=>Object.keys(file).length>0)
-
-    console.log(finalArray);    
+    const finalArray = props.files.filter(file=>Object.keys(file).length>0)    
     
-
     return(
         <div className="pdfpage">
            
