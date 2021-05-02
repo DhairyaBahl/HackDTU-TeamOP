@@ -31,11 +31,11 @@
             We'll get back to you in about 6 hours. Pinky promise!</p>
     </div>
 
-    <form action="url" method="post">
+    <form action="" method="post">
         <br>
         <p style="font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">What do you need help with?</p>
         <p style="font-family: 'Times New Roman', Times, serif;" >This helps make sure you get the right answer fast.</p>
-        <select name="problem" id="problem" class="drop-down">
+        <select name="problem" id="problem" class="drop-down" required>
             <option value="" class="drop-down">--What do you need assistance with?--</option>
             <option value="feature" class="drop-down">I want to request a feature</option>
             <option value="broken" class="drop-down">I think something is broken</option>
@@ -47,11 +47,13 @@
         <br>
         <p style="font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">What's your question, comment, or issue?</p>
         <p style="font-family: 'Times New Roman', Times, serif;">Share all the details. The more we know, the better we can help you.</p>
-        <textarea name="issue" id="" cols="80" rows="7"></textarea>
+        <textarea name="issue" id="" cols="80" rows="7" required></textarea>
         <p style="font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Name:</p>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required>
         <p style="font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">E-mail:</p>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
+        <br> <br>
+        <input type="submit" value="SUBMIT" style="font-size: 25px; color: rgb(255, 0, 0); background-color: rgba(32, 158, 126, 0.445); height: 35px; width: 170px;">
     </form>
 
     <footer>
