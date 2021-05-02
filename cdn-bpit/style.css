@@ -158,3 +158,30 @@ select#problem {width: 500px;height: 50px;}
 .drop-down{
   font-size: 20px;
 }
+
+#divbtn{
+  padding-left: 60px;
+}
+#divbtn:hover{
+   padding-bottom: 4px;
+}
+#submitbtn{
+ width:200px;
+  height: 50px; 
+  border: dashed 1.5px rgb(0, 4, 255);
+  font-size: 20px;
+  background-color: rgb(88, 203, 241);
+  border-radius: 10px;
+} 
+#submitbtn:hover{
+   transition:background-color .7s ease-out;
+   background-color: rgb(30, 255, 0);
+   box-shadow: #111;
+   padding-bottom: 4px;
+   
+}
+#txt{
+   font-size: 20px;
+   text-decoration: none;
+   color: black;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>refresher</title>
+    <style>body {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        padding: 0 20px;
+      }
+      
+      main {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      
+      p {
+        text-align: left;
+        padding: 0 20px;
+      }
+      
+      .box {
+        border: solid 1px;
+        background: #ccc;
+        padding: 6px;
+      }
+      
+      code {
+        color: firebrick;
+      }</style>
+</head>
+<body>
+
+    <script>document.querySelector('button').addEventListener('click', function () {
+        fetch('https://codepen.io/impressivewebs/pen/KKVopdL.html')
+          .then((response) => {
+            return response.text();
+          })
+          .then((myContent) => {
+            document.querySelector('.par').innerHTML = myContent;
+            document.querySelector('.par').classList.add('box');
+          });
+      
+      }, false);</script>
+    <main>
+        <h2>A Simple Fetch API Example</h2>
+        
+        <p>Use the button below to 'fetch' content from an external location via the Fetch API. The content will be displayed below:</p>
+        
+        <p class="par"></p>
+      
+        <button>Get Content</button>
+      
+      </main>
+
+
+      
+</body>
+</html>
