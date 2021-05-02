@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer.js';
 import Pdf from './Components/Pdf/Pdf.js';
 import firebase from 'firebase';
 import db from './firebase.js';
+import storage from './firebase.js'
 
 function App() {
 
@@ -23,8 +24,6 @@ function App() {
 
   const[subjects,setSubjects] = useState([]);
   const[files,setFiles]=useState([]);
-  
-  const[input,setInput] = useState("");
 
   return (
     <div className="App">
@@ -36,6 +35,7 @@ function App() {
 
         <Pdf files={files} subjects={subjects} />
 
+        <div id="shift" />
         <Footer />
       
       </div>  

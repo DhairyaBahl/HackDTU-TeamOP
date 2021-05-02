@@ -42,7 +42,8 @@
 }
 
 .sidenav a:hover{
-  color:white;
+  color:black;
+  background-color: white;
 }
 
 .active{
